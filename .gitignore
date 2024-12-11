@@ -1,0 +1,34 @@
+# vim
+*.swp
+
+# python
+*.py[cod]
+__pycache__
+**/.ipynb_checkpoints
+pyrightconfig.json
+**/.ruff_cache
+
+# rust
+**/target
+
+# svelte
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+*.lockb
+
+# mac
+.DS_Store
+Desktop.ini
+
+# specific to dotfiles
+nushell/history.txt
+
+# specific to advent
+input
